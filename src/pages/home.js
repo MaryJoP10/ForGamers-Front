@@ -28,7 +28,7 @@ const Home = () => {
                         <div class="carousel-item active">
                             <img src={img1} class="d-block w-100" alt=""/>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item"> 
                             <img src={img2} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item">
