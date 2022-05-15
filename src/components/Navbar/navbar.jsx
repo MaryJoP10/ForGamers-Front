@@ -3,6 +3,7 @@ import "./navbar.css";
 import { NavLink as Link } from "react-router-dom";
 import styled from 'styled-components'
 import logo from '../../images/logo.png';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -37,7 +38,7 @@ const Navbar = () => {
         </div>
 
         <div className="responsive">
-          {/**toggleMenu
+          {toggleMenu
             ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
             : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
           {toggleMenu && (
@@ -62,7 +63,7 @@ const Navbar = () => {
                 </NavLink>
               </div>
             </div>
-          )*/}
+          )}
         </div>
       </Nav>
     </>
