@@ -6,7 +6,7 @@ const Library = () => {
         <>
             <h1>Library page</h1>
             <div className="whatsapp" >
-                <a href="https://api.whatsapp.com/send?phone=573053521012" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=573053521012">
                     <img src={wpp} alt=""/>
                 </a>
             </div>
