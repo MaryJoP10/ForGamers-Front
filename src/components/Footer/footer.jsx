@@ -1,6 +1,5 @@
 import React from 'react';
 import "./footer.css";
-import { RiGithubFill, RiLinkedinBoxFill } from 'react-icons/ri';
 
 const Footer = () => {
     return (
