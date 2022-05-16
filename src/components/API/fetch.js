@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 
 export const Fetch = (url) => {
     const [result, setResult] = useState({loanding: true, data: null})
