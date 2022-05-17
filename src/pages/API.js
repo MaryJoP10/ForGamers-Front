@@ -17,7 +17,7 @@ const API = () => {
             alert("Debe iniciar sesión para entrar a esta sección.");
             navigate('/signin', {replace: true});
         }
-      }, []);
+      });
         return (
             <>
                 <div className='pokemon_container'>
