@@ -1,5 +1,6 @@
 import React from 'react';
 import wpp from '../images/wpp.png';
+import '../styles/community.css'
 
 const Community = () => {
     return (
